@@ -19,5 +19,19 @@ h1{
     padding-left: 200px;
 }
 
+.videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
 
+.videos img{
+    opacity: 0,5;
+    height: 200px;
 
+}
+
+.videos img:hover{
+    opacity: 1,0;
+    border: 3px salmon;
+}
